@@ -1,0 +1,219 @@
+{
+  "MONDAY": [
+    {
+      "start": "6:15am",
+      "end": "9:00am",
+      "startMins": 375,
+      "endMins": 540,
+      "shared": false
+    },
+    {
+      "start": "9:00am",
+      "end": "10:00am",
+      "startMins": 540,
+      "endMins": 600,
+      "shared": true
+    },
+    {
+      "start": "11:15am",
+      "end": "12:15pm",
+      "startMins": 675,
+      "endMins": 735,
+      "shared": false
+    },
+    {
+      "start": "1:30pm",
+      "end": "2:45pm",
+      "startMins": 810,
+      "endMins": 885,
+      "shared": false
+    },
+    {
+      "start": "7:00pm",
+      "end": "7:45pm",
+      "startMins": 1140,
+      "endMins": 1185,
+      "shared": false
+    }
+  ],
+  "TUESDAY": [
+    {
+      "start": "6:15am",
+      "end": "9:00am",
+      "startMins": 375,
+      "endMins": 540,
+      "shared": false
+    },
+    {
+      "start": "9:00am",
+      "end": "10:00am",
+      "startMins": 540,
+      "endMins": 600,
+      "shared": true
+    },
+    {
+      "start": "11:15am",
+      "end": "1:15pm",
+      "startMins": 675,
+      "endMins": 795,
+      "shared": false
+    },
+    {
+      "start": "3:00pm",
+      "end": "3:45pm",
+      "startMins": 900,
+      "endMins": 945,
+      "shared": false
+    },
+    {
+      "start": "7:00pm",
+      "end": "8:45pm",
+      "startMins": 1140,
+      "endMins": 1245,
+      "shared": false
+    }
+  ],
+  "WEDNESDAY": [
+    {
+      "start": "6:15am",
+      "end": "9:00am",
+      "startMins": 375,
+      "endMins": 540,
+      "shared": false
+    },
+    {
+      "start": "9:00am",
+      "end": "10:00am",
+      "startMins": 540,
+      "endMins": 600,
+      "shared": true
+    },
+    {
+      "start": "11:15am",
+      "end": "12:15pm",
+      "startMins": 675,
+      "endMins": 735,
+      "shared": false
+    },
+    {
+      "start": "1:30pm",
+      "end": "2:30pm",
+      "startMins": 810,
+      "endMins": 870,
+      "shared": false
+    },
+    {
+      "start": "7:00pm",
+      "end": "8:45pm",
+      "startMins": 1140,
+      "endMins": 1245,
+      "shared": false
+    },
+    {
+      "start": "7:45pm",
+      "end": "8:45pm",
+      "startMins": 1185,
+      "endMins": 1245,
+      "shared": false
+    }
+  ],
+  "THURSDAY": [
+    {
+      "start": "6:15am",
+      "end": "9:00am",
+      "startMins": 375,
+      "endMins": 540,
+      "shared": false
+    },
+    {
+      "start": "9:00am",
+      "end": "10:00am",
+      "startMins": 540,
+      "endMins": 600,
+      "shared": true
+    },
+    {
+      "start": "11:15am",
+      "end": "1:30pm",
+      "startMins": 675,
+      "endMins": 810,
+      "shared": false
+    },
+    {
+      "start": "3:00pm",
+      "end": "3:45pm",
+      "startMins": 900,
+      "endMins": 945,
+      "shared": false
+    },
+    {
+      "start": "6:30pm",
+      "end": "7:40pm",
+      "startMins": 1110,
+      "endMins": 1180,
+      "shared": false
+    }
+  ],
+  "FRIDAY": [
+    {
+      "start": "6:15am",
+      "end": "9:00am",
+      "startMins": 375,
+      "endMins": 540,
+      "shared": false
+    },
+    {
+      "start": "11:15am",
+      "end": "12:15pm",
+      "startMins": 675,
+      "endMins": 735,
+      "shared": false
+    },
+    {
+      "start": "3:00pm",
+      "end": "4:00pm",
+      "startMins": 900,
+      "endMins": 960,
+      "shared": false
+    },
+    {
+      "start": "6:30pm",
+      "end": "8:00pm",
+      "startMins": 1110,
+      "endMins": 1200,
+      "shared": false
+    }
+  ],
+  "SATURDAY": [
+    {
+      "start": "12:15pm",
+      "end": "2:30pm",
+      "startMins": 735,
+      "endMins": 870,
+      "shared": false
+    },
+    {
+      "start": "7:15pm",
+      "end": "8:45pm",
+      "startMins": 1155,
+      "endMins": 1245,
+      "shared": false
+    }
+  ],
+  "SUNDAY": [
+    {
+      "start": "7:15am",
+      "end": "8:45am",
+      "startMins": 435,
+      "endMins": 525,
+      "shared": false
+    },
+    {
+      "start": "12:00pm",
+      "end": "1:30pm",
+      "startMins": 720,
+      "endMins": 810,
+      "shared": false
+    }
+  ]
+}
