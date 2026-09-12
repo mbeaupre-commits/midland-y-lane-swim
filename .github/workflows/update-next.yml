@@ -1,0 +1,23 @@
+yaml
+name: Update next lane swim time
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: node scripts/compute-next.js
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add next.txt next.json
+          git diff --cached --quiet || git commit -m "Update next lane swim time"
+          git push
