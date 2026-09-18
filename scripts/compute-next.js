@@ -50,12 +50,13 @@ function upcomingSessions(count) {
   return results;
 }
 
-const upcoming = upcomingSessions(3);
+const upcoming = upcomingSessions(5);
 const outDir = path.join(__dirname, '..');
 
-const first = upcoming[0];
-const text = first
-  ? `${first.dayLabel} ${first.start}–${first.end}${first.shared ? ' (shared)' : ''}`
+const text = upcoming.length
+  ? upcoming
+      .map((s) => `${s.dayLabel} ${s.start}–${s.end}${s.shared ? ' (shared)' : ''}`)
+      .join('\n')
   : 'No sessions found';
 
 fs.writeFileSync(path.join(outDir, 'next.txt'), text + '\n');
