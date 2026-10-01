@@ -1,12 +1,6 @@
 {
-  "generatedAt": "2026-10-01T13:54:15.111Z",
+  "generatedAt": "2026-10-01T14:06:31.013Z",
   "upcoming": [
-    {
-      "dayLabel": "Today",
-      "start": "9:00am",
-      "end": "10:00am",
-      "shared": true
-    },
     {
       "dayLabel": "Today",
       "start": "11:15am",
@@ -29,6 +23,12 @@
       "dayLabel": "Tomorrow",
       "start": "6:15am",
       "end": "9:00am",
+      "shared": false
+    },
+    {
+      "dayLabel": "Tomorrow",
+      "start": "11:15am",
+      "end": "12:15pm",
       "shared": false
     }
   ]
