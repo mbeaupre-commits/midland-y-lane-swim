@@ -1,18 +1,6 @@
 {
-  "generatedAt": "2026-11-03T15:37:31.311Z",
+  "generatedAt": "2026-11-03T21:14:56.209Z",
   "upcoming": [
-    {
-      "dayLabel": "Today",
-      "start": "11:15am",
-      "end": "1:15pm",
-      "shared": false
-    },
-    {
-      "dayLabel": "Today",
-      "start": "3:00pm",
-      "end": "3:45pm",
-      "shared": false
-    },
     {
       "dayLabel": "Today",
       "start": "7:00pm",
@@ -30,6 +18,18 @@
       "start": "9:00am",
       "end": "10:00am",
       "shared": true
+    },
+    {
+      "dayLabel": "Tomorrow",
+      "start": "11:15am",
+      "end": "12:15pm",
+      "shared": false
+    },
+    {
+      "dayLabel": "Tomorrow",
+      "start": "1:30pm",
+      "end": "2:30pm",
+      "shared": false
     }
   ]
 }
